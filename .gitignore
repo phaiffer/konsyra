@@ -1,0 +1,63 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python Tools & Caches
+.pytest_cache/
+.pytest-tmp/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node.js & Web Frameworks
+node_modules/
+.next/
+out/
+dist/
+build/
+.npm/
+.yarn/
+*.tsbuildinfo
+
+# Logs & Temporary Files
+*.log
+logs/
+*.tmp
+*.bak
+*.swp
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDEs & Editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# VS Code specific overrides (allow configuration files, ignore user workspace data)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
