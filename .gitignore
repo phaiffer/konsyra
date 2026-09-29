@@ -27,6 +27,8 @@ htmlcov/
 node_modules/
 .next/
 out/
+# Build & Packaging Artifacts
+*.egg-info/
 dist/
 build/
 .npm/

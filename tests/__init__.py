@@ -1,0 +1,1 @@
+"""Konsyra test package."""
